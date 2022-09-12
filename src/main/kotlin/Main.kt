@@ -6,8 +6,14 @@ fun main(args: Array<String>) {
     warenkorb.addArtikel("Hut", 399.00)
     warenkorb.addArtikel("Handshuhe", 27.00)
 
-    f
-    println()
+    val myList = listOf<Artikel>()
+    for (counter in myList.indices){
+        print(myList[counter].name +" 2")
+        print(myList[counter].preis )
+
+        println()
+    }
+
 
 
     // Try adding program arguments via Run/Debug configuration.
